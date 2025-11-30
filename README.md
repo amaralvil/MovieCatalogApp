@@ -40,4 +40,4 @@ Aplicación móvil desarrollada en React Native con Expo para la gestión de un 
 1. **Clonar el repositorio**
    ```bash
    git clone https://github.com/tu-usuario/MovieCatalogApp.git
-   cd MovieCatalogApp
+   cd MovieCatalogApp# MovieCatalogApp
