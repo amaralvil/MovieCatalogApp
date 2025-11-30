@@ -1,43 +1,27 @@
-# MovieCatalog App 🎬
+# 🎬 MovieCatalog App
 
-Aplicación móvil desarrollada en React Native con Expo para la gestión de un catálogo de películas.
+## 🚀 Probar la Aplicación
 
-## 📱 Características
+### 📋 Prerrequisitos
+- Node.js 16+ 
+- npm o yarn
+- Expo CLI
+- Cuenta de Firebase
 
-- **Autenticación de usuarios** con Firebase Auth
-- **Catálogo de películas** con visualización de títulos e imágenes
-- **Sistema de administración** para agregar y eliminar películas
-- **Base de datos en tiempo real** con Firebase Firestore
-- **Interfaz moderna** y responsive
+### 🛠️ Instalación Local
+```bash
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/MovieCatalogApp.git
+cd MovieCatalogApp
 
-## 🛠️ Tecnologías Utilizadas
+# Instalar dependencias
+npm install
 
-- React Native
-- Expo
-- Firebase Authentication
-- Firebase Firestore
-- React Navigation
-- Expo Linear Gradient
+# Configurar Firebase (REQUERIDO)
+# 1. Crear proyecto en https://console.firebase.google.com
+# 2. Habilitar Authentication (Email/Password)
+# 3. Crear Firestore Database
+# 4. Configurar src/services/firebase.js con tus credenciales
 
-## 📋 Funcionalidades Implementadas
-
-### Pantallas
-- 🏠 **Inicio**: Bienvenida y opciones de registro/login
-- 📋 **Catálogo**: Lista de películas disponibles
-- 🎞️ **Detalles**: Información completa de cada película
-- ⚙️ **Administración**: CRUD completo de películas
-
-### Características por Película
-- Título
-- Año de lanzamiento
-- Director
-- Género
-- Sinopsis
-- Imagen de portada
-
-## 🔧 Instalación y Configuración
-
-1. **Clonar el repositorio**
-   ```bash
-   git clone https://github.com/tu-usuario/MovieCatalogApp.git
-   cd MovieCatalogApp# MovieCatalogApp
+# Ejecutar la aplicación
+npx expo start
